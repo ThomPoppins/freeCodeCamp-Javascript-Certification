@@ -1,5 +1,4 @@
 function telephoneCheck(str) {
-  // TODO: find regex for these last 5 cases
   if (
     /^\(.*\)$/.test(str) ||
     /^-/.test(str) ||
@@ -15,7 +14,6 @@ function telephoneCheck(str) {
   // Remove all non-digit characters from the phone number
   const digitsOnly = str.replace(/\D/g, "");
 
-  // return true if the phone number format is valid
   return /^(1\s?)?(\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}$/.test(digitsOnly);
 }
 
