@@ -1,0 +1,27 @@
+{
+  "name": "freecodecamp-certification-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomPoppins/freeCodeCamp-Javascript-certification.git"
+  },
+  "keywords": [
+    "freeCodeCamp",
+    "certification",
+    "javascript"
+  ],
+  "author": "Thom Veldpaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomPoppins/freeCodeCamp-Javascript-certification/issues"
+  },
+  "homepage": "https://github.com/ThomPoppins/freeCodeCamp-Javascript-certification#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
